@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>luma Studios</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="icons/LUMAPNG.png" alt="Studio Logo" />
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <!-- Hero Section -->
+    <section class="hero">
+      <div id="home" class="hero-content">
+        <h1>welcome to Luma studios</h1>
+        <p>
+          We capture timeless moments through portraits, events, and product
+          photography.
+        </p>
+        <a href="#portfolio" class="btn">View our Works</a>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section id="portfolio" class="portfolio">
+      <h2>Our Works</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/photo1.jpg" alt="Portfolio 1" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo2.jpg" alt="Portfolio 2" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo3.jpg" alt="Portfolio 3" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo4.jpg" alt="Portfolio 4" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo5.jpg" alt="Portfolio 5" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo6.jpg" alt="Portfolio 6" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo7.jpg" alt="Portfolio 7" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/photo8.jpg" alt="Portfolio 8" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <!-- Right Side: Content -->
+        <div class="about-text">
+          <h2>Hello, We are Luma Studios</h2>
+          <p>
+            We are passionate photographers with a love for capturing timeless
+            moments. From portraits to events, we believe every picture tells a
+            story, and our goal is to make those stories unforgettable.
+          </p>
+
+          <p>
+            With years of experience, we specialize in portraits, events, and
+            product photography. My studio is based in Greater Accra, but my
+            lens travels everywhere.
+          </p>
+
+          <h3>What we Do</h3>
+          <div class="services">
+            <div class="service">
+              <i class="fas fa-user"></i>
+              <h4>Portraits</h4>
+              <p>Capturing the true essence of individuals and families.</p>
+            </div>
+            <div class="service">
+              <i class="fas fa-calendar"></i>
+              <h4>Events</h4>
+              <p>
+                From weddings to corporate events, I freeze your moments in
+                time.
+              </p>
+            </div>
+            <div class="service">
+              <i class="fas fa-briefcase"></i>
+              <h4>Product</h4>
+              <p>High-quality product photography for brands and businesses.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOG ================= -->
+    <section id="blog" class="blog">
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <img src="icons/Filmmaking.jpg" alt="Blog 1" />
+          <h3>Behind the Scenes of My Portrait Session</h3>
+          <p>
+            Discover how I set up lighting and capture candid expressions in my
+            portrait sessions.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img src="icons/Sony fx3.jpg" alt="Blog 2" />
+          <h3>5 Tips for Stunning Event Photography</h3>
+          <p>
+            Event photography is more than just pictures—it's about
+            storytelling.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img src="icons/Sony α7S III Filmmkaing Setup.jpg" />
+          <h3>How to Make Products Look Amazing in Photos</h3>
+          <p>
+            Simple tips for businesses to improve product shots for websites and
+            ads.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you! Choose your preferred way to reach us:</p>
+
+      <div class="contact-buttons">
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/233548829295?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20photography%20session.%20Could%20you%20please%20share%20more%20details%3F"
+          class="btn whatsapp">
+          <i class="fab fa-whatsapp"></i> Message on WhatsApp
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/luma5tudios" class="btn instagram">
+          <i class="fab fa-instagram"></i> Connect on Instagram
+        </a>
+
+        <!-- Email -->
+        <a
+          href="mailto:yawluiselasii@gmail.com?subject=Photography%20Booking%20Inquiry&body=Hello%2C%20I%20am%20interested%20in%20booking%20a%20session.%20Could%20you%20please%20provide%20more%20information%3F"
+          class="btn email">
+          <i class="fas fa-envelope"></i> Send an Email
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>&copy; 2025 Studio Name. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/yourusername" class="instagramm">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/233548829295" class="whatsappp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
